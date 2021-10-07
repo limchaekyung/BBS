@@ -26,28 +26,28 @@
 			script.println("</script>");
 		}else{
 			if(bbs.getBbsTitle()==null||bbs.getBbsContent()==null){
-						PrintWriter script = response.getWriter();
-						script.println("<script>");
-						script.println("alert('입력되지 않은 사항이 있습니다.')");
-						script.println("history.back()");
-						script.println("</script>");
-					}else{
-						BbsDAO bbsDAO = new BbsDAO();
-						int result = bbsDAO.write(bbs.getBbsTitle(), userID, bbs.getBbsContent());
-						if(result==-1){
-							PrintWriter script = response.getWriter();
-							script.println("<script>");
-							script.println("alert('글쓰기에 실패했습니다.')");
-							script.println("history.back()");
-							script.println("</script>");
-						}
-						else {
-							PrintWriter script = response.getWriter();
-							script.println("<script>");
-							script.println("location.href='bbs.jsp'");
-							script.println("</script>");
-						}		
-					}	
+				PrintWriter script = response.getWriter();
+				script.println("<script>");
+				script.println("alert('입력되지 않은 사항이 있습니다.')");
+				script.println("history.back()");
+				script.println("</script>");
+			}else{
+				BbsDAO bbsDAO = new BbsDAO();
+				int result = bbsDAO.write(bbs.getBbsTitle(), userID, bbs.getBbsContent());
+				if(result==-1){
+					PrintWriter script = response.getWriter();
+					script.println("<script>");
+					script.println("alert('글쓰기에 실패했습니다.')");
+					script.println("history.back()");
+					script.println("</script>");
+				}
+				else {
+					PrintWriter script = response.getWriter();
+					script.println("<script>");
+					script.println("location.href='bbs.jsp'");
+					script.println("</script>");
+				}		
+			}	
 		}
 		
 		
