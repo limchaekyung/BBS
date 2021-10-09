@@ -84,6 +84,32 @@
 		</div>
 	</nav>
 	
+	<section class="container">
+		<form method="get" action="bbs.jsp" class="form-inline mt-3">
+			<select name="BBSDivide" class="form-control mx-1 mt-2">
+				<option value="전체">전체</option>
+				<option value="번호">번호</option>
+				<option value="제목">제목</option>
+				<option value="작성자">작성자</option>
+			</select>
+			<input type="text" name="search" class="form-control mx-1 mt-2" placeholder="내용을 입력하세요.">
+			<button type="submit" class="btn btn-primary mx-1 mt-2">검색</button>
+			<a class="btn btn-danger mx-1 mt-2" data-toggle="modal" href="#reportrModal">신고</a>
+		</form>
+	</section>
+	<div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="modal">평가 등록</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<div class="container">
 		<div class="row">
 			<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
