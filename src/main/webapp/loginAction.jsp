@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JSP 게시판 웹사이트</title>
+<title>게시판</title>
 </head>
 <body>
 	<%
