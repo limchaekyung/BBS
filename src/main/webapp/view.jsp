@@ -41,7 +41,7 @@
                 <span class="icon-bar"></span> 
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="main.jsp">게시판</a>
+            <a class="navbar-brand" href="main.jsp">JSP 게시판 웹사이트</a>
         </div>
         <div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -118,6 +118,26 @@
                     </tr>
                 </tbody>
             </table>
+            <div id="disqus_thread"></div>
+				<script>
+				    /**
+				    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+				    /*
+				    var disqus_config = function () {
+				    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+				    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				    };
+				    */
+				    (function() { // DON'T EDIT BELOW THIS LINE
+				    var d = document, s = d.createElement('script');
+				    s.src = 'https://bbs-3.disqus.com/embed.js';
+				    s.setAttribute('data-timestamp', +new Date());
+				    (d.head || d.body).appendChild(s);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
             <a href="bbs.jsp" class="btn btn-primary pull-right">목록</a>
             <%
                 if (userID != null && userID.equals(bbs.getUserID())) {
