@@ -36,34 +36,32 @@ root directory에서 Run As → Run on Server
 
 ![localhost_8080_BBS_main jsp (2)](https://user-images.githubusercontent.com/77483541/140289288-3855dbde-328c-4a51-bf06-d52957cbf115.png)
 
-
-
 ### :scroll:회원가입
 
-![image-20211104180057407](C:\Users\임채경\AppData\Roaming\Typora\typora-user-images\image-20211104180057407.png)
+![image-20211104180057407](https://user-images.githubusercontent.com/77483541/140289500-87f1b279-0a02-42b9-a3f7-00325c8e6a0f.png)
 
 ### :clipboard:로그인
 
-![image-20211104175934344](C:\Users\임채경\AppData\Roaming\Typora\typora-user-images\image-20211104175934344.png)
+![image-20211104175934344](https://user-images.githubusercontent.com/77483541/140289572-9f564575-fafb-41cb-b4f6-7019b8495853.png)
 
 ### :open_file_folder:게시판CRUD
 
 - #### list
 
-![localhost_8080_BBS_bbs.jsp](C:\Users\임채경\Downloads\localhost_8080_BBS_bbs.jsp.png)
+![localhost_8080_BBS_bbs jsp](https://user-images.githubusercontent.com/77483541/140289664-219baa36-2ef9-44fe-bbdc-da22ea9d085d.png)
 
 - #### create
 
-![localhost_8080_BBS_write.jsp](C:\Users\임채경\Downloads\localhost_8080_BBS_write.jsp.png)
+![localhost_8080_BBS_write jsp](https://user-images.githubusercontent.com/77483541/140289722-fad35d0a-5d01-427d-80ac-e29ed6257067.png)
 
 - #### read
 
-![localhost_8080_BBS_view.jsp_bbsID=10 (2)](C:\Users\임채경\Downloads\localhost_8080_BBS_view.jsp_bbsID=10 (2).png)
+![localhost_8080_BBS_view jsp_bbsID=10 (2)](https://user-images.githubusercontent.com/77483541/140289766-d238527d-6098-42e1-be3e-0f0414e4828c.png)
 
 - #### update
 
-![localhost_8080_BBS_update.jsp_bbsID=10](C:\Users\임채경\Downloads\localhost_8080_BBS_update.jsp_bbsID=10.png)
+![localhost_8080_BBS_update jsp_bbsID=10](https://user-images.githubusercontent.com/77483541/140289866-bf6a28e2-545a-416e-8f53-2cf12191bc13.png)
 
 - #### delete
 
-  ![localhost_8080_BBS_bbs.jsp (1)](C:\Users\임채경\Downloads\localhost_8080_BBS_bbs.jsp (1).png)
+![localhost_8080_BBS_bbs jsp (1)](https://user-images.githubusercontent.com/77483541/140289924-24c9032c-2248-4d94-b610-008a38af593e.png)
