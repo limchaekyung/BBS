@@ -34,7 +34,7 @@ root directory에서 Run As → Run on Server
 
 ### :pushpin:메인페이지
 
-![localhost_8080_BBS_main.jsp (2)](C:\Users\임채경\Downloads\localhost_8080_BBS_main.jsp (2).png)
+![localhost_8080_BBS_main jsp (2)](https://user-images.githubusercontent.com/77483541/140289288-3855dbde-328c-4a51-bf06-d52957cbf115.png)
 
 
 
